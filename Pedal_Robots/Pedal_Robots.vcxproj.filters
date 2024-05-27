@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Pedal_Robots.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Pedal_Robots.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="Pedal_Robots.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="Pedal_Robots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pedal_robots_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setpar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="devdebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alarmdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alarmreminder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="historydata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="pedal_robots_main.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="setpar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="devdebug.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="alarmdata.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="alarmreminder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="historydata.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="pedal_robots_main.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="setpar.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="devdebug.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="alarmdata.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="alarmreminder.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="historydata.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

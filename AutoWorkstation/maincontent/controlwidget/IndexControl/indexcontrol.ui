@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IndexControlClass</class>
+ <widget class="QWidget" name="IndexControlClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1749</width>
+    <height>1295</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IndexControl</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>370</y>
+     <width>841</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../../../AutoWorkstation.qrc">:/MainWindow/res/image/Group10104@1x.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../../AutoWorkstation.qrc"/>
+ </resources>
+ <connections/>
+</ui>

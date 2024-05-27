@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>res/Font/DingTalk JinBuTi.ttf</file>
+        <file>res/image/Logo@1x.png</file>
+        <file>res/image/Profile@1x.png</file>
+        <file>res/image/close_hover.png</file>
+        <file>res/image/close_normal.png</file>
+        <file>res/image/Frame@1x-6.png</file>
+        <file>res/image/Group9592@1x-1.png</file>
+        <file>res/image/Group10104@1x.png</file>
+        <file>res/image/image4@1x-1.png</file>
+        <file>res/image/max_hover.png</file>
+        <file>res/image/max_normal.png</file>
+        <file>res/image/min_hover.png</file>
+        <file>res/image/min_normal.png</file>
+        <file>res/image/normal_hover.png</file>
+        <file>res/image/normal_normal.png</file>
+    </qresource>
+</RCC>

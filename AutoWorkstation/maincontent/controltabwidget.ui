@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ControlTabWidget</class>
+ <widget class="QWidget" name="ControlTabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1645</width>
+    <height>1285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTabWidget" name="tabWidgetControl">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="IndexControl" name="tabIndex">
+      <attribute name="title">
+       <string>首页</string>
+      </attribute>
+     </widget>
+     <widget class="TestControl" name="tabTest">
+      <attribute name="title">
+       <string>测试过程监控</string>
+      </attribute>
+     </widget>
+     <widget class="TestResultControl" name="tabTestResult">
+      <attribute name="title">
+       <string>测试结果输出</string>
+      </attribute>
+     </widget>
+     <widget class="ManageControl" name="tabManage">
+      <attribute name="title">
+       <string>后台管理</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ManageControl</class>
+   <extends>QWidget</extends>
+   <header location="global">managecontrol.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TestControl</class>
+   <extends>QWidget</extends>
+   <header location="global">testcontrol.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>IndexControl</class>
+   <extends>QWidget</extends>
+   <header location="global">indexcontrol.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TestResultControl</class>
+   <extends>QWidget</extends>
+   <header location="global">testresultcontrol.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>tabWidgetControl</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

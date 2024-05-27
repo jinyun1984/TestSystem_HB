@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33403.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pedal_Robots", "Pedal_Robots\Pedal_Robots.vcxproj", "{3D679888-571F-46B1-81C2-630A3954FE6F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoWorkstation", "AutoWorkstation\AutoWorkstation.vcxproj", "{0A18181F-8D64-48ED-99EA-108AE2CF88D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D679888-571F-46B1-81C2-630A3954FE6F}.Debug|x64.ActiveCfg = Debug|x64
+		{3D679888-571F-46B1-81C2-630A3954FE6F}.Debug|x64.Build.0 = Debug|x64
+		{3D679888-571F-46B1-81C2-630A3954FE6F}.Release|x64.ActiveCfg = Release|x64
+		{3D679888-571F-46B1-81C2-630A3954FE6F}.Release|x64.Build.0 = Release|x64
+		{0A18181F-8D64-48ED-99EA-108AE2CF88D4}.Debug|x64.ActiveCfg = Debug|x64
+		{0A18181F-8D64-48ED-99EA-108AE2CF88D4}.Debug|x64.Build.0 = Debug|x64
+		{0A18181F-8D64-48ED-99EA-108AE2CF88D4}.Release|x64.ActiveCfg = Release|x64
+		{0A18181F-8D64-48ED-99EA-108AE2CF88D4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6F83955-5C16-4E66-94EB-ECAD814DD0D6}
+	EndGlobalSection
+EndGlobal

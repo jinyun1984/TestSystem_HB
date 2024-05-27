@@ -1,0 +1,44 @@
+﻿/********************** MainTitleBar Style Sheet  *******************/
+QPushButton#pushButtonClose
+{
+border:none;
+background:rgba(255, 255, 255, 0);
+image: url(./res/image/close_normal.png);
+}
+
+QPushButton#pushButtonClose:hover
+{
+border:none;
+background:rgba(255, 255, 255, 0);
+image: url(./res/image/close_hover.png);
+}
+
+QPushButton#pushButtonMin
+{
+border:none;
+background:rgba(255, 255, 255, 0);
+image: url(./res/image/min_normal.png);
+}
+
+QPushButton#pushButtonMin:hover
+{
+border:none;
+background:rgba(255, 255, 255, 0);
+image: url(./res/image/min_hover.png);
+}
+
+
+QPushButton#pushButtonMax
+{
+border:none;
+background:rgba(255, 255, 255, 0);
+image: url(./res/image/max_normal.png);
+}
+
+QPushButton#pushButtonMax:hover
+{
+border:none;
+background:rgba(255, 255, 255, 0);
+image: url(./res/image/max_hover.png);
+}
+
