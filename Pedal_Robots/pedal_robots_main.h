@@ -44,6 +44,13 @@ private:
 
 	QTimer m_timer; // ¶¨Ê±Æ÷
 
+	//QChart *chartDriver;
+	//QChartView *chartviewDriver;
+	//QSplineSeries *series_momentDriver;
+
+	//QChart *chart_positionDriver;
+	//QChartView *chartview_positionDriver;
+	//QSplineSeries *series_positionDriver;
 private:	
 	
 	SetPar *SetParP;

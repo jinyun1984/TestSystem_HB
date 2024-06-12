@@ -45,7 +45,7 @@ AlarmData::AlarmData(QWidget *parent)
 		//ÉèÖÃ×Ö·ûÎ»ÖÃ
 		model->item(i, 0)->setTextAlignment(Qt::AlignCenter);
 		model->setItem(i, 1, new QStandardItem(u8"2"));
-	}
+	}   
 
 	i++;
 
@@ -64,7 +64,7 @@ AlarmData::AlarmData(QWidget *parent)
 	//ÉèÖÃ×Ö·ûÎ»ÖÃ
 	model->item(i, 0)->setTextAlignment(Qt::AlignCenter);
 	model->setItem(i, 1, new QStandardItem(u8"4"));
-
+	
 
 
 }

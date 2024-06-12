@@ -11,91 +11,23 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ABD试验机器人管理系统</string>
+   <string>汽车踏板机器人控制系统</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="0">
+    <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="Chn1">
        <attribute name="title">
-        <string>刹车踏板通道</string>
+        <string>自动控制</string>
        </attribute>
-       <widget class="QTextEdit" name="textEdit">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>20</y>
-          <width>181</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>16</pointsize>
-         </font>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>20</y>
-          <width>54</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>18</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>N</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_2">
-        <property name="geometry">
-         <rect>
-          <x>440</x>
-          <y>20</y>
-          <width>54</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>18</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>次</string>
-        </property>
-       </widget>
-       <widget class="QTextEdit" name="textEdit_2">
-        <property name="geometry">
-         <rect>
-          <x>250</x>
-          <y>20</y>
-          <width>181</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>16</pointsize>
-         </font>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_3">
         <property name="geometry">
          <rect>
-          <x>680</x>
+          <x>420</x>
           <y>20</y>
           <width>54</width>
           <height>31</height>
@@ -108,16 +40,16 @@
          </font>
         </property>
         <property name="text">
-         <string>mm</string>
+         <string>%</string>
         </property>
        </widget>
        <widget class="QTextEdit" name="textEdit_3">
         <property name="geometry">
          <rect>
-          <x>490</x>
+          <x>230</x>
           <y>20</y>
           <width>181</width>
-          <height>31</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="font">
@@ -125,15 +57,12 @@
           <pointsize>16</pointsize>
          </font>
         </property>
-       </widget>
-       <widget class="QLCDNumber" name="lcdNumber">
-        <property name="geometry">
-         <rect>
-          <x>750</x>
-          <y>20</y>
-          <width>221</width>
-          <height>31</height>
-         </rect>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;40&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_4">
@@ -154,7 +83,7 @@
          </font>
         </property>
         <property name="text">
-         <string>力矩-时间曲线</string>
+         <string>力-时间曲线</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_5">
@@ -187,6 +116,14 @@
           <height>431</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>启动</string>
+        </property>
        </widget>
        <widget class="QChartView" name="widget_2" native="true">
         <property name="geometry">
@@ -198,17 +135,101 @@
          </rect>
         </property>
        </widget>
-      </widget>
-      <widget class="QWidget" name="Chn2">
-       <attribute name="title">
-        <string>油门踏板通道</string>
-       </attribute>
-       <widget class="QLabel" name="label_6">
+       <widget class="QLabel" name="label_12">
         <property name="geometry">
          <rect>
-          <x>200</x>
-          <y>10</y>
-          <width>54</width>
+          <x>890</x>
+          <y>20</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Pedal_Robots.qrc">:/Pedal_Robots/res/image/staff_1024.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>20</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Pedal_Robots.qrc">:/Pedal_Robots/res/image/011b085a604f52a8012113c71a3aa4.jpg@1280w_1l_2o_100sh.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>840</x>
+          <y>80</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>启动</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>900</x>
+          <y>80</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>停止</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>油门踏板</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>刹车踏板</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>20</y>
+          <width>71</width>
           <height>31</height>
          </rect>
         </property>
@@ -219,15 +240,43 @@
          </font>
         </property>
         <property name="text">
-         <string>N</string>
+         <string>mm</string>
         </property>
        </widget>
+       <widget class="QLCDNumber" name="lcdNumber">
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>20</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber_3">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>20</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="value" stdset="0">
+         <double>60.000000000000000</double>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Chn2">
+       <attribute name="title">
+        <string>司机控制</string>
+       </attribute>
        <widget class="QLabel" name="label_7">
         <property name="geometry">
          <rect>
-          <x>510</x>
-          <y>60</y>
-          <width>181</width>
+          <x>530</x>
+          <y>70</y>
+          <width>211</width>
           <height>31</height>
          </rect>
         </property>
@@ -264,84 +313,6 @@
          <string>位移-时间曲线</string>
         </property>
        </widget>
-       <widget class="QTextEdit" name="textEdit_4">
-        <property name="geometry">
-         <rect>
-          <x>480</x>
-          <y>10</y>
-          <width>181</width>
-          <height>31</height>
-         </rect>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_9">
-        <property name="geometry">
-         <rect>
-          <x>430</x>
-          <y>10</y>
-          <width>54</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>18</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>次</string>
-        </property>
-       </widget>
-       <widget class="QTextEdit" name="textEdit_5">
-        <property name="geometry">
-         <rect>
-          <x>240</x>
-          <y>10</y>
-          <width>181</width>
-          <height>31</height>
-         </rect>
-        </property>
-       </widget>
-       <widget class="QLCDNumber" name="lcdNumber_2">
-        <property name="geometry">
-         <rect>
-          <x>740</x>
-          <y>10</y>
-          <width>221</width>
-          <height>31</height>
-         </rect>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_10">
-        <property name="geometry">
-         <rect>
-          <x>670</x>
-          <y>10</y>
-          <width>54</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Arial</family>
-          <pointsize>18</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>mm</string>
-        </property>
-       </widget>
-       <widget class="QTextEdit" name="textEdit_6">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>10</y>
-          <width>181</width>
-          <height>31</height>
-         </rect>
-        </property>
-       </widget>
        <widget class="QChartView" name="widget_3" native="true">
         <property name="geometry">
          <rect>
@@ -356,10 +327,201 @@
         <property name="geometry">
          <rect>
           <x>20</x>
-          <y>110</y>
+          <y>120</y>
           <width>1411</width>
           <height>431</height>
          </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>20</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>mm</string>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber_2">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>20</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="value" stdset="0">
+         <double>90.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>油门踏板</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>刹车踏板</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber_4">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>20</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="value" stdset="0">
+         <double>60.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>860</x>
+          <y>70</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>启动</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>10</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Pedal_Robots.qrc">:/Pedal_Robots/res/image/staff_1024.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>70</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>停止</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>850</x>
+          <y>10</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Pedal_Robots.qrc">:/Pedal_Robots/res/image/011b085a604f52a8012113c71a3aa4.jpg@1280w_1l_2o_100sh.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>20</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>20</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>位移</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>20</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>力</string>
         </property>
        </widget>
       </widget>
@@ -403,6 +565,9 @@
    <property name="toolTip">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;参数设置&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
   </action>
   <action name="Debug">
    <property name="icon">
@@ -423,6 +588,9 @@
    </property>
    <property name="toolTip">
     <string>权限管理</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
    </property>
   </action>
   <action name="HistoryData">
@@ -457,6 +625,9 @@
    <property name="text">
     <string>用户管理</string>
    </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
   </action>
   <action name="Start">
    <property name="icon">
@@ -466,6 +637,9 @@
    <property name="text">
     <string>启动</string>
    </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
   </action>
   <action name="Stop">
    <property name="icon">
@@ -474,6 +648,9 @@
    </property>
    <property name="text">
     <string>停止</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
    </property>
   </action>
  </widget>

@@ -20,6 +20,8 @@ private:
 	QChart *chart_position;
 	QChartView *chartview_position;
 	QSplineSeries *series_position;
+
+
 private:
 	Ui::HistoryDataClass ui;
 };

@@ -6,62 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1521</width>
-    <height>1348</height>
+    <width>1523</width>
+    <height>1355</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>历史数据</string>
   </property>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>890</x>
-     <y>30</y>
-     <width>321</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <pointsize>18</pointsize>
-    </font>
-   </property>
-   <property name="editable">
-    <bool>true</bool>
-   </property>
-   <item>
-    <property name="text">
-     <string>位置控制</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>力控制</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>减速控制</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>反馈控制</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>车速控制</string>
-    </property>
-   </item>
-  </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>1240</x>
-     <y>30</y>
+     <x>780</x>
+     <y>40</y>
      <width>131</width>
      <height>31</height>
     </rect>
@@ -90,6 +46,16 @@
      <family>Arial</family>
      <pointsize>16</pointsize>
     </font>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2024</year>
+     <month>6</month>
+     <day>12</day>
+    </datetime>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -159,25 +125,6 @@
     <string>踏板类型</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>750</x>
-     <y>30</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>控制类型</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
@@ -237,7 +184,7 @@
     </font>
    </property>
    <property name="text">
-    <string>力矩-时间曲线</string>
+    <string>力-时间曲线</string>
    </property>
   </widget>
  </widget>
